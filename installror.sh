@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "This script will install the following packages:"
-PACK=('ruby-full' 'sqlite3' 'sqlitebrowser' 'yarn' 'nodejs' 'npm' 'rails')
+PACK=('ruby-full' 'sqlite3' 'sqlitebrowser' 'libsqlite3-dev' 'yarn' 'nodejs' 'npm' 'rails')
 for pack in ${PACK[@]}
 do
 	echo -e "\t 📦 $pack"
