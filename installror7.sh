@@ -17,8 +17,8 @@ echo 'eval "$(rbenv init -)"' >> ~/.bashrc
 echo 'export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"' >> ~/.bashrc
 source $HOME/.bashrc
 
-~/.rbenv
-~/.rbenv/plugins/ruby-build
+# ~/.rbenv
+# ~/.rbenv/plugins/ruby-build
 
 rbenv install 3.1.2
 rbenv global 3.1.2
