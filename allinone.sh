@@ -27,7 +27,7 @@ sudo apt install ubuntu-restricted-extras ubuntu-restricted-addons -y
 echo "Setting up your github email and user"
 echo "Enter your github username: " 
 read gname
-eacho "Enter email addressed used for github"
+echo "Enter email addressed used for github"
 read gemail
 echo "GNAME=$gname" >> $HOME/.bashrc
 echo "GEMAIL=$gemail" >> $HOME/.bashrc
